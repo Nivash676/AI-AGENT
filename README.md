@@ -28,7 +28,8 @@ The system follows an agentic workflow, where multiple specialized agents collab
 ## 📁 Project Structure
 
 ```text
-agentic_ai/
+AI-AGENT/
+agent/
 ├── app/
 │   ├── main.py          # FastAPI server & API routes
 │   ├── agents.py        # LangGraph multi-agent orchestrator
@@ -40,7 +41,17 @@ agentic_ai/
 
 ▶️ Running the Application
 
-Start the FastAPI server using the following command:
+###
+
+# Documentation
+
+Final Step for You
+
+1. Create the .env file in the root folder.
+
+2. Add your keys.
+
+3. Start the FastAPI server using the following command:
           python -m app.main
 
 The API will be available at http://127.0.0.1:8000. You can access the interactive Swagger documentation at /docs
