@@ -37,3 +37,10 @@ agentic_ai/
 │   └── vector_store.py  # FAISS indexing & embedding logic
 ├── .env                 # API keys (GROQ, OpenWeather)
 └── README.md            # Project documentation
+
+▶️ Running the Application
+
+Start the FastAPI server using the following command:
+          python -m app.main
+
+The API will be available at http://127.0.0.1:8000. You can access the interactive Swagger documentation at /docs
