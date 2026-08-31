@@ -52,6 +52,6 @@ Final Step for You
 2. Add your keys.
 
 3. Start the FastAPI server using the following command:
-          python -m app.main
+          uvicorn app.main:app --reload
 
 The API will be available at http://127.0.0.1:8000. You can access the interactive Swagger documentation at /docs
